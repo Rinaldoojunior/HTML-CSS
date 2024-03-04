@@ -1,0 +1,14 @@
+@charset "UTF-8";
+*{
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+h1, h2{
+    font: italic 3em "Tahoma";
+    color: rgba(156, 78, 23, 0.685);
+}
+p{
+    text-align: justify;
+}             
+}

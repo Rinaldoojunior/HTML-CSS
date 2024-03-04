@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Pokemon';
+    src:url('fonts/Pokemon1.ttf') format('truetype'), url('fonts/Pokemon2.ttf') format('truetype')
+}
+h1{
+    font-family: 'Pokemon';
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(232, 235, 28, 0.836);
+    color: rgb(0, 0, 0);
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    font-family: 'Pokemon', Times, serif;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.863);
+    font-size: 2em;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+img{
+    display: block;
+    margin: auto;
+}

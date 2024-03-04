@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+            background-color: rgba(0, 255, 255, 0.692);
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        a::before{
+            content: '💥';
+        }
+        a::after{
+            content: '💥';
+        }
+        .especial::before{
+            content: '🌐';
+        }
+        .especial::after{
+            content: '🌐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <li><a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Google</a></li>
+    <li><a href="https://www.youtube.com/?gl=BR" class="especial" target="_blank">Youtube</a></li>
+    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+   
+    
+</body>
+</html>
