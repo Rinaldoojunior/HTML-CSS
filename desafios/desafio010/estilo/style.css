@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Honk&family=Kaushan+Script&display=swap');
 
-@font-face {
-    font-family: 'android';
-    src: url('idroid.otf') format('opentype');
-}
-
 :root{
     --cor0: #ebe5c5;
     --cor1: #83e1ad;
@@ -15,9 +10,9 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
 
-    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: 'android'
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;  
+       
 }
 
 *{
@@ -39,6 +34,7 @@ header{
             padding-top: 40px;
             text-align: center;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+           
 }
 
 header p{
@@ -49,16 +45,14 @@ header p{
     padding-left: 10px;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
-    margin-bottom: 20px;
-    
+    margin-bottom: 0px;     
 }
 
 header > h1 {
             color: white;
             font-family: var(--fonte-destaque);
             font-size: 3em;
-            margin-bottom: 20px;
-            font-weight: normal;
+            margin-bottom: 20px;           
 }
 
         main{
@@ -76,9 +70,10 @@ header > h1 {
 
         main h1, h2{
             color: var(--cor5);
-            font-family: var(--fonte-android);
             background-image: linear-gradient(to right, var(--cor1), transparent);
             font-weight: normal;
+            font-family: var(--fonte-destaque);
+            font-size: 2em;
         }
 
         main img{
@@ -110,7 +105,7 @@ header > h1 {
             
         }
 
-        nav a: {
+        nav a:hover {
             background-color: var(--cor3);
             color: var(--cor5);
         }
