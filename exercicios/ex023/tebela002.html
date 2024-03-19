@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        table{
+            width: 500px;
+            margin: auto;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead{
+            background-color: grey;
+            color: white;
+            font-variant: small-caps;
+            font-size: 1.5em;           
+        }
+        thead > tr> th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tfoot{
+            background-color: grey;
+            color: white;
+            font-variant: small-caps;
+            font-size: 1.3em;
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 2em;
+            font-weight: bold;
+            font-variant: small-caps;
+            background-color: grey;
+            border: 0.5px solid black;
+            color: white;
+        }
+        tbody tr:nth-child(2n){
+            background-color: lightgrey;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <CAPtion>
+            População Brasileira
+        </CAPtion> 
+        <thead> <!-- CABEÇALHO DA TABELA -->
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+       </thead>
+        <tbody> <!-- CORPO DA TABELA -->
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+        </tbody>
+        <tfoot> <!-- RODAPÉ DA TABELA -->
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>00.000.000</strong></td>
+        </tfoot>
+        
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas repellendus saepe consectetur deleniti neque architecto quis a. Totam dolor quo, enim eos voluptate a perspiciatis, harum quibusdam voluptates assumenda quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui hic beatae dignissimos aperiam? Et minima veniam voluptates possimus in dignissimos delectus repellat consequuntur tempora perferendis quam, officiis corrupti, corporis vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore soluta, a dolorem nobis voluptatem sunt ut praesentium, adipisci, possimus delectus. Facere error quam vel, cumque doloremque culpa! Iste, cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloribus asperiores ratione, alias nemo facere dolorem a eum ea et ipsa natus quaerat odit saepe quis placeat perspiciatis exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quos magni id, porro quis sit doloremque modi architecto possimus repellendus recusandae necessitatibus, labore at, quia aliquid ratione. Culpa, sit voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas repellendus saepe consectetur deleniti neque architecto quis a. Totam dolor quo, enim eos voluptate a perspiciatis, harum quibusdam voluptates assumenda quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui hic beatae dignissimos aperiam? Et minima veniam voluptates possimus in dignissimos delectus repellat consequuntur tempora perferendis quam, officiis corrupti, corporis vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore soluta, a dolorem nobis voluptatem sunt ut praesentium, adipisci, possimus delectus. Facere error quam vel, cumque doloremque culpa! Iste, cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloribus asperiores ratione, alias nemo facere dolorem a eum ea et ipsa natus quaerat odit saepe quis placeat perspiciatis exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quos magni id, porro quis sit doloremque modi architecto possimus repellendus recusandae necessitatibus, labore at, quia aliquid ratione. Culpa, sit voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas repellendus saepe consectetur deleniti neque architecto quis a. Totam dolor quo, enim eos voluptate a perspiciatis, harum quibusdam voluptates assumenda quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui hic beatae dignissimos aperiam? Et minima veniam voluptates possimus in dignissimos delectus repellat consequuntur tempora perferendis quam, officiis corrupti, corporis vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore soluta, a dolorem nobis voluptatem sunt ut praesentium, adipisci, possimus delectus. Facere error quam vel, cumque doloremque culpa! Iste, cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloribus asperiores ratione, alias nemo facere dolorem a eum ea et ipsa natus quaerat odit saepe quis placeat perspiciatis exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quos magni id, porro quis sit doloremque modi architecto possimus repellendus recusandae necessitatibus, labore at, quia aliquid ratione. Culpa, sit voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas repellendus saepe consectetur deleniti neque architecto quis a. Totam dolor quo, enim eos voluptate a perspiciatis, harum quibusdam voluptates assumenda quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui hic beatae dignissimos aperiam? Et minima veniam voluptates possimus in dignissimos delectus repellat consequuntur tempora perferendis quam, officiis corrupti, corporis vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore soluta, a dolorem nobis voluptatem sunt ut praesentium, adipisci, possimus delectus. Facere error quam vel, cumque doloremque culpa! Iste, cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloribus asperiores ratione, alias nemo facere dolorem a eum ea et ipsa natus quaerat odit saepe quis placeat perspiciatis exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quos magni id, porro quis sit doloremque modi architecto possimus repellendus recusandae necessitatibus, labore at, quia aliquid ratione. Culpa, sit voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas repellendus saepe consectetur deleniti neque architecto quis a. Totam dolor quo, enim eos voluptate a perspiciatis, harum quibusdam voluptates assumenda quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui hic beatae dignissimos aperiam? Et minima veniam voluptates possimus in dignissimos delectus repellat consequuntur tempora perferendis quam, officiis corrupti, corporis vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore soluta, a dolorem nobis voluptatem sunt ut praesentium, adipisci, possimus delectus. Facere error quam vel, cumque doloremque culpa! Iste, cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloribus asperiores ratione, alias nemo facere dolorem a eum ea et ipsa natus quaerat odit saepe quis placeat perspiciatis exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quos magni id, porro quis sit doloremque modi architecto possimus repellendus recusandae necessitatibus, labore at, quia aliquid ratione. Culpa, sit voluptatum?</p>
+    
+</body>
+</html>
