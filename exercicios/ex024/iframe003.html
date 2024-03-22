@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        iframe{
+            width: 98vw;
+            height: 180px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, ea cumque. Quis aut quae quisquam accusamus, illum qui, delectus cupiditate vitae hic, eligendi iste iure temporibus molestias eveniet deleniti harum!</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Time 001</a></li>
+        <li><a href="pag002.html" target="frame">Time 002</a></li>
+        <li><a href="pag003.html" target="frame">Time 003</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugit aut aperiam rem cum, blanditiis cupiditate minus architecto qui dolore quam quia magni molestiae harum voluptate, nostrum maxime officiis ut!</p>
+
+    <iframe src="pag000.html" name="frame"></iframe>
+
+    <iframe srcdoc="<h1> Escolha uma das opções acima</h1>"></iframe>
+    
+</body>
+</html>
