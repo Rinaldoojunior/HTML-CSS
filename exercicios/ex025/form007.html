@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icid">Estado:</label>
+            <select name="Cidade" id="icid">
+
+            <optgroup label="Região Metropolitana">
+                <option value="Recife" selected>Recife</option>
+                <option value="Olinda">Olinda</option>
+                <option value="Paulista">Paulista</option>
+                <option value="Jaboatão">Jaboatão dos Guararapes</option>
+                <option value="Abreu">Abreu e Lima</option>
+                <option value="Igarassu">Igarassu</option>
+                <option value="Goiana">Goiana</option>
+            </optgroup>
+
+            <optgroup label="Agreste">
+                <option value="Caruaru">Caruaru</option>
+                <option value="Gravata">Gravatá</option>
+                <option value="Garanhuns">Garanhuns</option>
+            </optgroup>
+
+        </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lista">
+            <datalist id="lista">
+                <option>Professor</option>
+                <option>Bancário</option>
+                <option>Auxiliar Adm</option>
+                <option>Empresário</option>
+                <option>Jogador</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
