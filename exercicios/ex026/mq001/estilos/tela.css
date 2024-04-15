@@ -11,7 +11,7 @@ html{
 }
 
 header{
-    background-color: rgb(76, 250, 7);
+    background-color: lightblue;
 }
 
 header > h1{
@@ -20,11 +20,21 @@ header > h1{
 
 menu ul{
     list-style-type: none;
-    background-color: rgb(231, 235, 39);
+    background-color: aqua;
+    text-align: center;
 }
 
 menu li{
     display: inline-block;
     padding: 10px;
-    background-color: chartreuse;
+    
+    
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    line-height: 2em;
 }
